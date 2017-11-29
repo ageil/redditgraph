@@ -1,0 +1,10 @@
+SELECT
+    subreddit,
+    title,
+    domain,
+    num_comments,
+    score,
+    over_18,
+    is_self
+FROM
+    [fh-bigquery:reddit_posts.2017_09]
